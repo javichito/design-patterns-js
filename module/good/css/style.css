@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding-top: 50px;
+  background: hsl(0, 0%, 97%);
+  font-family: Arial, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 600px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+
+  border-radius: 4px;
+}
+ul.tabs {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  list-style: none;
+  background-color: #ddf0f9;
+}
+ul.tabs li {
+  display: inline-block;
+}
+ul.tabs li:hover a,
+ul.tabs li.active a {
+  color: #fff;
+  background-color: #00aeef;
+}
+ul.tabs li a {
+  color: #00aeef;
+  display: block;
+  font-size: 14px;
+  padding: 10px 15px;
+  transition: .29s ease-in;
+}
+.content > div {
+  display: none;
+  padding: 1.5em;
+}
+.content > .active {
+  display: block;
+}
