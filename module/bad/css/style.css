@@ -7,6 +7,21 @@ body {
 a {
   text-decoration: none;
 }
+p {
+  font-size: 14px;
+  line-height: 20px;
+}
+ul.images {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ul.images li {
+  margin: 5px;
+  padding: 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+}
 .container {
   width: 100%;
   margin: 0 auto;

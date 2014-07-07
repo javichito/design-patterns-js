@@ -7,6 +7,21 @@ body {
 a {
   text-decoration: none;
 }
+p {
+  font-size: 14px;
+  line-height: 20px;
+}
+ul.images {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ul.images li {
+  margin: 5px;
+  padding: 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+}
 .container {
   width: 100%;
   margin: 0 auto;
@@ -27,7 +42,7 @@ ul.tabs li {
   display: inline-block;
 }
 ul.tabs li:hover a,
-ul.tabs li.active a {
+ul.tabs li.current a {
   color: #fff;
   background-color: #00aeef;
 }
@@ -42,6 +57,6 @@ ul.tabs li a {
   display: none;
   padding: 1.5em;
 }
-.content > .active {
+.content > .current {
   display: block;
 }
